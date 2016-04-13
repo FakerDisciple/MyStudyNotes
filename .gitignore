@@ -1,0 +1,33 @@
+#Intellij project files
+
+.idea/
+*.iml
+*.ipr
+*.iws
+# 名称附带斜线  代表文件夹
+out/
+bin/
+gen/
+local.properties
+
+# Android Studio
+build/
+.gradle
+
+# Eclipse prpject files
+
+.project
+.settings/
+.classpath
+
+#OS gen
+.DS_Store
+Thumbs.db
+
+# Temp files
+
+*.bak
+*.temp
+*.vpp~*
+*.*~
+~*.*
