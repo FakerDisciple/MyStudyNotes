@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context="com.renxifeng.broadcastexercise.MainActivity">
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Account："
+            />
+        <EditText
+            android:id="@+id/user_account"
+            android:layout_height="wrap_content"
+            android:hint="Input your Account"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="PassWord："
+            />
+        <EditText
+            android:id="@+id/user_password"
+            android:layout_height="wrap_content"
+            android:hint="Input your PassWord"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/user_login"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="Login"
+            />
+    </TableRow>
+
+</TableLayout>
